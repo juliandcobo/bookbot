@@ -11,6 +11,7 @@ def main():
     book_text = get_book_text(path_book)
     num_words(book_text)
     d = count_char(book_text)
-    print(d)
+    the_list = dict_sort(d)
+    print(the_list)
 main()
 
