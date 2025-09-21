@@ -4,6 +4,7 @@ def num_words(file_contents):
     for word in book_split:
         num_words += 1
     print(f"{num_words} words found in the document")
+    return num_words
 
 def sort_on(dict):
     return dict["num"]
